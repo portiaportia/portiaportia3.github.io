@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+            Name: Portia Plante
+            Course: CSCE 102
+            Section: 13
+            Date: January 12th, 2023
+        -->
+        <title>Template</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <h1>TBD</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 1</a></li>
+                </ul>
+            </nav>
+            <main class="col-container">
+                <table id="game-board">
+                    <tr>
+                        <td id="row1col1" onclick="makeMove(this)"></td>
+                        <td id="row1col2" onclick="makeMove(this)"></td>
+                        <td id="row1col3" onclick="makeMove(this)"></td>
+                    </tr>
+                    <tr>
+                        <td id="row2col1" onclick="makeMove(this)"></td>
+                        <td id="row2col2" onclick="makeMove(this)"></td>
+                        <td id="row2col3" onclick="makeMove(this)"></td>
+                    </tr>
+                    <tr>
+                        <td id="row3col1" onclick="makeMove(this)"></td>
+                        <td id="row3col2" onclick="makeMove(this)"></td>
+                        <td id="row3col3" onclick="makeMove(this)"></td>
+                    </tr>
+                </table>
+
+                <div id="win"></div>
+            </main>
+            <footer>
+                <p>&copy; My copywrite</p>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
